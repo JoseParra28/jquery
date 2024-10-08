@@ -21,9 +21,9 @@ body {
 html {
     scroll-behavior: smooth;
 }
-p {
+/* p {
     color: var(--font)
-}
+} */
 /* Transition */
 a, .btn{
     transition: all 300ms ease;
