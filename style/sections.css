@@ -52,5 +52,30 @@ section {
 /* icons */
 .icon {
     cursor: pointer;
-    height: 2rem;
+    height: 3rem;
+    padding: 1rem;
 }
+/* Buttons */
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.btn {
+    font-weight: 600;
+    transition: all 300 ease;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 2rem;
+
+}
+.btn-color, .btn-color-2 {
+    border: rgb(53, 53, 53) 0.1rem solid;
+
+}
+.btn-color, .btn-color-2:hover {
+    background-color: rgb(53, 53, 53);
+    color: aliceblue;
+    
+}
+
