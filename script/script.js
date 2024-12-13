@@ -6,14 +6,17 @@
 //     const sidebar = document.querySelector(".sidebar");
 //     sidebar.style.display = 'none';
 // }
+
+
 $("button").click (function (){
-    $("h1").css("color", "pink")
-    console.log(this)
+    $("h1").animate({opacity: 0.5})
+ 
 })
 
-$("input").keypress(function(event) {
-    $("h1").text(event.key)})
+// $("input").keypress(function(event) {
+//     $("h1").text(event.key)})
 
-$("h1").on("click" , function(){
-    $("h1").css("color", "green")
-})
+// $("h1").on("click" , function(){
+//     $("h1").hide()
+// })
+
