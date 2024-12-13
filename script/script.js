@@ -6,6 +6,14 @@
 //     const sidebar = document.querySelector(".sidebar");
 //     sidebar.style.display = 'none';
 // }
-$(".test").text("Hello there")
-$("button").html("<a>hey</>")
-console.log($("a").attr("href", "https://www.google.ie/index.html"))
+$("button").click (function (){
+    $("h1").css("color", "pink")
+    console.log(this)
+})
+
+$("input").keypress(function(event) {
+    $("h1").text(event.key)})
+
+$("h1").on("click" , function(){
+    $("h1").css("color", "green")
+})
