@@ -6,5 +6,6 @@
 //     const sidebar = document.querySelector(".sidebar");
 //     sidebar.style.display = 'none';
 // }
-$("h1").addClass("bold")
-
+$(".test").text("Hello there")
+$("button").html("<a>hey</>")
+console.log($("a").attr("href", "https://www.google.ie/index.html"))
