@@ -12,7 +12,7 @@
 }
 body {
     min-height: 100vh;
-    background-image: url(/WevDev/WebDev/media/opening-laptop.jpg);
+    background-color: #333;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
