@@ -88,3 +88,8 @@ nav li:first-child {
     }
     
 }
+.bold {
+    color: yellow;
+    font-size: 4rem;
+    
+}

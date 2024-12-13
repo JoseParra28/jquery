@@ -6,5 +6,5 @@
 //     const sidebar = document.querySelector(".sidebar");
 //     sidebar.style.display = 'none';
 // }
+$("h1").addClass("bold")
 
-$("h1").css("color", "red")
